@@ -28,10 +28,10 @@
 
 @class DYFToast;
 
-// Rename unsigned int as GravityType
+// Renames unsigned int as GravityType
 typedef unsigned int GravityType;
 
-// Declare a `Gravity_t` struct.
+// Declares a `Gravity_t` struct.
 struct Gravity_t {
     GravityType TOP_EDGE; // At the top edge of the screen.
     GravityType TOP;      // At the top of the screen.
@@ -43,7 +43,7 @@ typedef struct Gravity_t Gravity_t;
 // A constant structure(`Gravity`) is declared.
 CG_EXTERN const Gravity_t Gravity;
 
-// Declare a `ToastLength_t` struct.
+// Declares a `ToastLength_t` struct.
 struct ToastLength_t {
     double LENGTH_SHORT;
     double LENGTH_LONG;
@@ -53,48 +53,49 @@ typedef struct ToastLength_t ToastLength_t;
 // A constant structure(`Toastl`) is declared.
 CG_EXTERN const ToastLength_t Toastl;
 
-/** Declare a making text block that contains super view, text and duration. */
+/** Declares a making text block that contains the super view, text and duration. */
 typedef DYFToast *(^ToastMakeTextBlock)(UIView *inView, const char *text, double duration);
 
-/** Declare a gravity setter block that contains gravity type. */
+/** Declares a gravity setter block that contains the gravity type. */
 typedef DYFToast *(^ToastSetGravityBlock)(GravityType type);
 
-/** Declare a color setter block that contains backgroud color and text color. */
+/** Declares a color setter block that contains the backgroud and text color. */
 typedef DYFToast *(^ToastSetColorBlock)(UIColor *backgroudColor, UIColor *textColor);
 
-/** Declare all corners setter block that contains radius. */
+/** Declares all corners setter block that contains the radius. */
 typedef DYFToast *(^ToastSetCornerBlock)(CGFloat radius);
 
-/** Declare a border setter block that contains color and width. */
+/** Declares a border setter block that contains the color and width. */
 typedef DYFToast *(^ToastSetBorderBlock)(UIColor *color, CGFloat width);
 
-/** Declare a toast show block. */
+/** Declares a toast show block. */
 typedef void (^ToastShowBlock)(void);
 
-/** Returns a `DYFToast` instance. */
+/** Returns an `DYFToast` instance. */
 CG_EXTERN DYFToast *Toast();
 
 @interface DYFToast : NSObject
 
-/** Returns a `DYFToast` instance with the class method. */
+/** Returns an `DYFToast` instance with the class method. */
 + (instancetype)toast;
 
-/** Sets up super view, text and display time by calling the `ToastMakeTextBlock` block. */
+/** Sets up the super view, text and display time by calling the `ToastMakeTextBlock` block. */
 - (ToastMakeTextBlock)makeText;
 
-/** Sets up gravity by calling the `ToastSetGravityBlock` block. */
+/** Sets up the gravity by calling the `ToastSetGravityBlock` block. */
 - (ToastSetGravityBlock)setGravity;
 
-/** Sets up background color and text color by calling the `ToastSetColorBlock` block. */
+/** Sets up the background and text color by calling the `ToastSetColorBlock` block. */
 - (ToastSetColorBlock)setColor;
 
-/** Sets up corner that contains radius by calling the `ToastSetCornerBlock` block. */
+/** Sets up the corners that contains the radius by calling the `ToastSetCornerBlock` block. */
 - (ToastSetCornerBlock)setCorner;
 
-/** Sets up border that contains color and width by calling the `ToastSetBorderBlock` block. */
+/** Sets up the border that contains the color and width by calling the `ToastSetBorderBlock` block. */
 - (ToastSetBorderBlock)setBorder;
 
 /** Shows toast by calling the `ToastShowBlock` block. */
 - (ToastShowBlock)show;
 
 @end
+

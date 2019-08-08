@@ -24,28 +24,26 @@
 }
 
 - (IBAction)setGravityAction:(id)sender {
-    static int step  = 0;
+    static int i = 0;
     
     GravityType type = Gravity.TOP_EDGE;
     char *message = "网络连接超时，请重试";
-    if (step == 0) {
+    if (i == 0) {
         type = Gravity.TOP_EDGE;
         message = "网络连接超时，请重试";
-    } else if (step == 1) {
+    } else if (i == 1) {
         type = Gravity.TOP;
         message = "请求失败";
-    } else if (step == 2) {
+    } else if (i == 2) {
         type = Gravity.CENTER;
         message = "清理完成";
-    } else if (step == 3) {
+    } else if (i == 3) {
         type = Gravity.BOTTOM;
         message = "请输入用户名";
     }
     
-    step++;
-    if (step >= 4) {
-        step = 0;
-    }
+    i++;
+    if (i >= 4) { i = 0; }
     
     UIView *inView = self.navigationController.view;
     Toast().makeText(inView, message, Toastl.LENGTH_LONG)

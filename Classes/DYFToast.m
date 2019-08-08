@@ -24,7 +24,6 @@
 //
 
 #import "DYFToast.h"
-#import <QuartzCore/QuartzCore.h>
 
 // Default background color.
 #define BG_COLOR     [UIColor colorWithRed:0.2 green:0.2 blue:0.2 alpha:0.9]
