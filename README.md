@@ -111,6 +111,10 @@ pod 'DYFToast', '~> 2.0.1'
 }
 ```
 
+## Sample Codes
+
+- [Sample Codes Gateway](https://github.com/dgynfi/DYFToast/blob/master/Basic%20Files/ViewController.m)
+
 ## Codes and Comments
 
 ``` ObjC

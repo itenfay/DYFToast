@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
   # s.resources = "Resources/*.png"
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
-  s.frameworks = "UIKit", "Foundation"
+  s.frameworks = "Foundation", "UIKit"
 
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
