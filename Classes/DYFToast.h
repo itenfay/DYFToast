@@ -25,6 +25,7 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
+#import <CoreGraphics/CoreGraphics.h>
 
 @class DYFToast;
 
@@ -98,4 +99,3 @@ CG_EXTERN DYFToast *Toast();
 - (ToastShowBlock)show;
 
 @end
-

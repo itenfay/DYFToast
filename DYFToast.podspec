@@ -2,7 +2,10 @@ Pod::Spec.new do |s|
 
   s.name         = "DYFToast"
   s.version      = "2.0.1"
-  s.summary      = "Fully imitating the Android toast, using chain programming, through point operation, it can achieve the properties settings and display of the toast, the code is concise and efficient."
+  s.summary      = "The useful toast for iOS."
+  s.description  = <<-DESC
+	Fully imitating the Android toast, using chain programming, through point operation, it can achieve the properties settings and display of the toast, the code is concise and efficient.
+                   DESC
 
   s.homepage     = "https://github.com/dgynfi/DYFToast"
 
@@ -26,7 +29,7 @@ Pod::Spec.new do |s|
   # s.resources = "Resources/*.png"
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
-  s.frameworks = "Foundation", "UIKit"
+  s.frameworks = "Foundation", "UIKit", "CoreGraphics"
 
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"

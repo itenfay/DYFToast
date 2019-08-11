@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		969A23951E1E31CD00A4A758 /* DYFToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 969A23941E1E31CD00A4A758 /* DYFToast.m */; };
-		96B4BD941E1F50F300D65655 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96B4BD931E1F50F300D65655 /* QuartzCore.framework */; };
 		96B4BD961E1F50FB00D65655 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96B4BD951E1F50FB00D65655 /* UIKit.framework */; };
 		96B4BD981E1F510600D65655 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96B4BD971E1F510600D65655 /* Foundation.framework */; };
 		96B4BD9A1E1F510C00D65655 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96B4BD991E1F510C00D65655 /* CoreGraphics.framework */; };
@@ -24,7 +23,6 @@
 		969A23781E1E2D7D00A4A758 /* DYFToast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DYFToast.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		969A23931E1E31CD00A4A758 /* DYFToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYFToast.h; sourceTree = "<group>"; };
 		969A23941E1E31CD00A4A758 /* DYFToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYFToast.m; sourceTree = "<group>"; };
-		96B4BD931E1F50F300D65655 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		96B4BD951E1F50FB00D65655 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		96B4BD971E1F510600D65655 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		96B4BD991E1F510C00D65655 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -44,7 +42,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96B4BD941E1F50F300D65655 /* QuartzCore.framework in Frameworks */,
 				96B4BD9A1E1F510C00D65655 /* CoreGraphics.framework in Frameworks */,
 				96B4BD961E1F50FB00D65655 /* UIKit.framework in Frameworks */,
 				96B4BD981E1F510600D65655 /* Foundation.framework in Frameworks */,
@@ -59,6 +56,7 @@
 			children = (
 				96F09B2E1F6A59C500B64A84 /* Basic Files */,
 				969A23921E1E31CD00A4A758 /* Classes */,
+				96B4BD921E1F50E900D65655 /* Frameworks */,
 				969A23791E1E2D7D00A4A758 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -76,7 +74,6 @@
 			children = (
 				969A23931E1E31CD00A4A758 /* DYFToast.h */,
 				969A23941E1E31CD00A4A758 /* DYFToast.m */,
-				96B4BD921E1F50E900D65655 /* Frameworks */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -87,10 +84,8 @@
 				96B4BD991E1F510C00D65655 /* CoreGraphics.framework */,
 				96B4BD971E1F510600D65655 /* Foundation.framework */,
 				96B4BD951E1F50FB00D65655 /* UIKit.framework */,
-				96B4BD931E1F50F300D65655 /* QuartzCore.framework */,
 			);
 			name = Frameworks;
-			path = ..;
 			sourceTree = "<group>";
 		};
 		96F09B2E1F6A59C500B64A84 /* Basic Files */ = {
