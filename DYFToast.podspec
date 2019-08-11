@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
   s.name         = "DYFToast"
   s.version      = "2.0.1"
-  s.summary      = "iOS 完全仿Android吐司提示框，采用了链式编程，通过点操作，实现吐司提示框的属性设置和展示，代码简洁，高效。(Fully imitating the Android toast, using chain programming, through point operation, it can achieve the properties settings and display of the toast, the code is concise and efficient.)"
+  s.summary      = "Fully imitating the Android toast, using chain programming, through point operation, it can achieve the properties settings and display of the toast, the code is concise and efficient."
 
   s.homepage     = "https://github.com/dgynfi/DYFToast"
 
