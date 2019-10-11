@@ -1,8 +1,8 @@
 Pod::Spec.new do |s|
 
   s.name         = "DYFToast"
-  s.version      = "2.0.1"
-  s.summary      = "The useful toast for iOS."
+  s.version      = "2.0.2"
+  s.summary      = "The useful toast for iOS, fully imitates Android toast."
   s.description  = <<-DESC
 	Fully imitating the Android toast, using chain programming, through point operation, it can achieve the properties settings and display of the toast, the code is concise and efficient.
                    DESC
