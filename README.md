@@ -2,39 +2,46 @@
 <img src="https://github.com/dgynfi/DYFToast/raw/master/images/DYFToast.png" width="90%">
 </div>
 
-[如果此项目能帮助到你，就请你给一颗星。谢谢！(If this project can help you, please give it a star. Thanks!)](https://github.com/dgynfi/DYFToast)
+## [英文文档（English Document）](README-en.md)
+
+如果此项目能帮助到你，就请你给[一颗星](https://github.com/dgynfi/DYFToast)。谢谢！
+
+
+## DYFToast
+
+此项目采用链式编程和点语法操作，实现 iOS 仿真安卓吐司提示框，其代码简洁高效。
 
 [![License MIT](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](LICENSE)&nbsp;
 [![CocoaPods](http://img.shields.io/cocoapods/v/DYFToast.svg?style=flat)](http://cocoapods.org/pods/DYFToast)&nbsp;
 ![CocoaPods](http://img.shields.io/cocoapods/p/DYFToast.svg?style=flat)&nbsp;
 
-## DYFToast
 
-iOS完全仿Android吐司提示框，采用了链式编程，通过点操作，实现吐司提示框的属性设置和展示，代码简洁高效。(Fully imitating the Android toast, using chain programming, through point operation, it can achieve the properties settings and display of the toast, the code is concise and efficient.)
-
-## Group (ID:614799921)
+## QQ群 (ID:614799921)
 
 <div align=left>
 &emsp; <img src="https://github.com/dgynfi/DYFToast/raw/master/images/g614799921.jpg" width="30%" />
 </div>
 
-## Installation
 
-Using [CocoaPods](https://cocoapods.org):
+## 安装
+
+使用 [CocoaPods](https://cocoapods.org):
 
 ```
-pod 'DYFToast', '~> 2.0.3'
+pod 'DYFToast', '~> 2.0.4'
 ```
 
-## Preview
+
+## 预览
 
 <div align=left>
 &emsp; <img src="https://github.com/dgynfi/DYFToast/raw/master/images/ToastPreview.gif" width="30%" />
 </div>
 
-## Usage
 
-- 默认设置并显示 (Shows toast with default settings)
+## 使用
+
+- 默认设置并显示
 
 ```
 - (IBAction)defaultAction:(id)sender {
@@ -42,7 +49,7 @@ pod 'DYFToast', '~> 2.0.3'
 }
 ```
 
-- 设置位置 (Sets gravity)
+- 设置位置
 
 ```
 - (IBAction)setGravityAction:(id)sender {
@@ -53,16 +60,13 @@ pod 'DYFToast', '~> 2.0.3'
     if (i == 0) {
         type = Gravity.TOP_EDGE;
         message = "网络连接超时，请重试";
-    } 
-    else if (i == 1) {
+    } else if (i == 1) {
         type = Gravity.TOP;
         message = "请求失败";
-    } 
-    else if (i == 2) {
+    } else if (i == 2) {
         type = Gravity.CENTER;
         message = "清理完成";
-    } 
-    else if (i == 3) {
+    } else if (i == 3) {
         type = Gravity.BOTTOM;
         message = "请输入用户名";
     }
@@ -77,7 +81,7 @@ pod 'DYFToast', '~> 2.0.3'
 }
 ```
 
-- 设置背景和文本颜色 (Sets background and text color)
+- 设置背景和文本颜色
 
 ```
 - (IBAction)setColorAction:(id)sender {
@@ -91,7 +95,7 @@ pod 'DYFToast', '~> 2.0.3'
 }
 ```
 
-- 设置转角 (Sets corner with radius)
+- 设置转角
 
 ```
 - (IBAction)setCornerAction:(id)sender {
@@ -103,7 +107,7 @@ pod 'DYFToast', '~> 2.0.3'
 }
 ```
 
-- 设置边框 (Sets border with the width and color of line)
+- 设置边框
 
 ```
 - (IBAction)setBorderAction:(id)sender {
@@ -115,6 +119,7 @@ pod 'DYFToast', '~> 2.0.3'
 }
 ```
 
-## Code Sample
 
-- [Code Sample Portal](https://github.com/dgynfi/DYFToast/blob/master/Basic%20Files/ViewController.m)
+## 示例
+
+如需了解更多，请到[这里](https://github.com/dgynfi/DYFToast/blob/master/Basic%20Files/ViewController.m)。
