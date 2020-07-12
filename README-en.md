@@ -28,7 +28,7 @@ This project uses chain programming and point syntax operation to realize the si
 Using [CocoaPods](https://cocoapods.org):
 
 ```
-pod 'DYFToast', '~> 2.0.3'
+pod 'DYFToast', '~> 2.0.4'
 ```
 
 
