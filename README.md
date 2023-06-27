@@ -1,5 +1,5 @@
 <div align=center>
-<img src="https://github.com/chenxing640/DYFToast/raw/master/images/DYFToast.png" width="90%">
+<img src="https://github.com/chenxing640/DYFToast/raw/master/images/DYFToast.png" width="60%">
 </div>
 
 ## [英文文档（English Document）](README-en.md)
