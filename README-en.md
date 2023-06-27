@@ -1,27 +1,24 @@
 <div align=center>
-<img src="https://github.com/dgynfi/DYFToast/raw/master/images/DYFToast.png" width="90%">
+<img src="https://github.com/chenxing640/DYFToast/raw/master/images/DYFToast.png" width="60%">
 </div>
 
-## [Chinese Document](https://github.com/dgynfi/DYFToast)
+## [Chinese Document](https://github.com/chenxing640/DYFToast)
 
-If this project can help you, please give it [a star](https://github.com/dgynfi/DYFToast/blob/master/README-en.md). Thanks!
-
+If this project can help you, please give it [a star](https://github.com/chenxing640/DYFToast/blob/master/README-en.md). Thanks!
 
 ## DYFToast
 
-This project uses chain programming and point syntax operation to realize the simulation of Android's Toast in iOS, and its code is concise and efficient.
+Using chain programming and point syntax operation to realize the simulation of Android's Toast in iOS.
 
 [![License MIT](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](LICENSE)&nbsp;
 [![CocoaPods](http://img.shields.io/cocoapods/v/DYFToast.svg?style=flat)](http://cocoapods.org/pods/DYFToast)&nbsp;
 ![CocoaPods](http://img.shields.io/cocoapods/p/DYFToast.svg?style=flat)&nbsp;
 
-
 ## Group (ID:614799921)
 
 <div align=left>
-&emsp; <img src="https://github.com/dgynfi/DYFToast/raw/master/images/g614799921.jpg" width="30%" />
+&emsp; <img src="https://github.com/chenxing640/DYFToast/raw/master/images/g614799921.jpg" width="30%" />
 </div>
-
 
 ## Installation
 
@@ -31,13 +28,11 @@ Using [CocoaPods](https://cocoapods.org):
 pod 'DYFToast', '~> 2.0.4'
 ```
 
-
 ## Preview
 
 <div align=left>
-&emsp; <img src="https://github.com/dgynfi/DYFToast/raw/master/images/ToastPreview.gif" width="30%" />
+&emsp; <img src="https://github.com/chenxing640/DYFToast/raw/master/images/ToastPreview.gif" width="30%" />
 </div>
-
 
 ## Usage
 
@@ -119,7 +114,6 @@ pod 'DYFToast', '~> 2.0.4'
 }
 ```
 
-
 ## Sample
 
-To learn more, plaease go [here](https://github.com/dgynfi/DYFToast/blob/master/Basic%20Files/ViewController.m).
+To learn more, plaease go [here](https://github.com/chenxing640/DYFToast/blob/master/Basic%20Files/ViewController.m).
