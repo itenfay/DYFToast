@@ -1,27 +1,24 @@
 <div align=center>
-<img src="https://github.com/dgynfi/DYFToast/raw/master/images/DYFToast.png" width="90%">
+<img src="https://github.com/chenxing640/DYFToast/raw/master/images/DYFToast.png" width="90%">
 </div>
 
 ## [英文文档（English Document）](README-en.md)
 
-如果此项目能帮助到你，就请你给[一颗星](https://github.com/dgynfi/DYFToast)。谢谢！
-
+如果此项目能帮助到你，就请你给[一颗星](https://github.com/chenxing640/DYFToast)。谢谢！
 
 ## DYFToast
 
-此项目采用链式编程和点语法操作，实现 iOS 仿真安卓吐司提示框，其代码简洁高效。
+采用链式编程和点语法操作，实现 iOS 仿真安卓吐司提示框。
 
 [![License MIT](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](LICENSE)&nbsp;
 [![CocoaPods](http://img.shields.io/cocoapods/v/DYFToast.svg?style=flat)](http://cocoapods.org/pods/DYFToast)&nbsp;
 ![CocoaPods](http://img.shields.io/cocoapods/p/DYFToast.svg?style=flat)&nbsp;
 
-
 ## QQ群 (ID:614799921)
 
 <div align=left>
-&emsp; <img src="https://github.com/dgynfi/DYFToast/raw/master/images/g614799921.jpg" width="30%" />
+&emsp; <img src="https://github.com/chenxing640/DYFToast/raw/master/images/g614799921.jpg" width="30%" />
 </div>
-
 
 ## 安装
 
@@ -31,13 +28,11 @@
 pod 'DYFToast', '~> 2.0.4'
 ```
 
-
 ## 预览
 
 <div align=left>
-&emsp; <img src="https://github.com/dgynfi/DYFToast/raw/master/images/ToastPreview.gif" width="30%" />
+&emsp; <img src="https://github.com/chenxing640/DYFToast/raw/master/images/ToastPreview.gif" width="30%" />
 </div>
-
 
 ## 使用
 
@@ -119,7 +114,6 @@ pod 'DYFToast', '~> 2.0.4'
 }
 ```
 
-
 ## 示例
 
-如需了解更多，请到[这里](https://github.com/dgynfi/DYFToast/blob/master/Basic%20Files/ViewController.m)。
+如需了解更多，请到[这里](https://github.com/chenxing640/DYFToast/blob/master/Basic%20Files/ViewController.m)。
