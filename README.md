@@ -2,9 +2,7 @@
 <img src="https://github.com/chenxing640/DYFToast/raw/master/images/DYFToast.png" width="60%">
 </div>
 
-## [英文文档（English Document）](README-en.md)
-
-如果此项目能帮助到你，就请你给[一颗星](https://github.com/chenxing640/DYFToast)。谢谢！
+**中文版** | [English Version](README-en.md)
 
 ## DYFToast
 
@@ -34,13 +32,15 @@ pod 'DYFToast', '~> 2.0.4'
 &emsp; <img src="https://github.com/chenxing640/DYFToast/raw/master/images/ToastPreview.gif" width="30%" />
 </div>
 
+> 如果能帮助到你，就请你给一颗`star`。谢谢！
+
 ## 使用
 
 - 默认设置并显示
 
 ```
 - (IBAction)defaultAction:(id)sender {
-    Toast().makeText(self.view, "无效的验证码", Toastl.LENGTH_SHORT).show();
+    Toast().makeText(self.view, "无效的验证码", ToastDuration.LENGTH_SHORT).show();
 }
 ```
 
@@ -70,7 +70,7 @@ pod 'DYFToast', '~> 2.0.4'
     if (i >= 4) { i = 0; }
 
     UIView *inView = self.navigationController.view;
-    Toast().makeText(inView, message, Toastl.LENGTH_LONG)
+    Toast().makeText(inView, message, ToastDuration.LENGTH_LONG)
     .setGravity(type)
     .show();
 }
@@ -83,7 +83,7 @@ pod 'DYFToast', '~> 2.0.4'
     UIColor *bgColor   = [UIColor colorWithRed:120/255.0 green:210/255.0 blue:251/255.0 alpha:0.9];
     UIColor *textColor = [UIColor colorWithRed:255/255.0 green:255/255.0 blue:255/255.0 alpha:1.0];
     char *message = "Wrong username and password";
-    Toast().makeText(self.view, message, Toastl.LENGTH_LONG)
+    Toast().makeText(self.view, message, ToastDuration.LENGTH_LONG)
     .setGravity(Gravity.BOTTOM)
     .setColor(bgColor, textColor)
     .show();
@@ -95,7 +95,7 @@ pod 'DYFToast', '~> 2.0.4'
 ```
 - (IBAction)setCornerAction:(id)sender {
     char *message = "Please input email";
-    Toast().makeText(self.view, message, Toastl.LENGTH_LONG)
+    Toast().makeText(self.view, message, ToastDuration.LENGTH_LONG)
     .setGravity(Gravity.BOTTOM)
     .setCorner(20)
     .show();
@@ -107,13 +107,9 @@ pod 'DYFToast', '~> 2.0.4'
 ```
 - (IBAction)setBorderAction:(id)sender {
     char *message = "手机号码格式不正确，请重输入";
-    Toast().makeText(self.view, message, Toastl.LENGTH_LONG)
+    Toast().makeText(self.view, message, ToastDuration.LENGTH_LONG)
     .setGravity(Gravity.BOTTOM)
     .setBorder(UIColor.orangeColor, 3)
     .show();
 }
 ```
-
-## 示例
-
-如需了解更多，请到[这里](https://github.com/chenxing640/DYFToast/blob/master/Basic%20Files/ViewController.m)。

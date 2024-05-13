@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'DYFToast_Example' do
+  pod 'DYFToast', :path => '../'
+
+  target 'DYFToast_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

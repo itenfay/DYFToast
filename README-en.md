@@ -2,9 +2,7 @@
 <img src="https://github.com/chenxing640/DYFToast/raw/master/images/DYFToast.png" width="60%">
 </div>
 
-## [Chinese Document](https://github.com/chenxing640/DYFToast)
-
-If this project can help you, please give it [a star](https://github.com/chenxing640/DYFToast/blob/master/README-en.md). Thanks!
+[中文版](README.md) | **English Version**
 
 ## DYFToast
 
@@ -33,6 +31,8 @@ pod 'DYFToast', '~> 2.0.4'
 <div align=left>
 &emsp; <img src="https://github.com/chenxing640/DYFToast/raw/master/images/ToastPreview.gif" width="30%" />
 </div>
+
+> If this can help you, please give it a `stat`. Thanks!
 
 ## Usage
 
@@ -113,7 +113,3 @@ pod 'DYFToast', '~> 2.0.4'
     .show();
 }
 ```
-
-## Sample
-
-To learn more, plaease go [here](https://github.com/chenxing640/DYFToast/blob/master/Basic%20Files/ViewController.m).

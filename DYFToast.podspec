@@ -1,43 +1,47 @@
+#
+# Be sure to run `pod lib lint DYFToast.podspec' to ensure this is a
+# valid spec before submitting.
+#
+# Any lines starting with a # are optional, but their use is encouraged
+# To learn more about a Podspec see https://guides.cocoapods.org/syntax/podspec.html
+#
+
 Pod::Spec.new do |s|
+    s.name             = 'DYFToast'
+    s.version          = '2.0.5'
+    s.summary          = 'Realize the simulation of Android's Toast in iOS.'
 
-  s.name         = "DYFToast"
-  s.version      = "2.0.4"
-  s.summary      = "Realize the simulation of Android's Toast in iOS."
-  s.description  = <<-DESC
-	This project uses chain programming and point syntax operation to realize the simulation of Android's Toast in iOS, and its code is concise and efficient.
-                   DESC
+    # This description is used to generate tags and improve search results.
+    #   * Think: What does it do? Why did you write it? What is the focus?
+    #   * Try to keep it short, snappy and to the point.
+    #   * Write the description between the DESC delimiters below.
+    #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.homepage     = "https://github.com/dgynfi/DYFToast"
+    s.description      = <<-DESC
+    TODO: This project uses chain programming and point syntax operation to realize the simulation of Android's Toast in iOS, and its code is concise and efficient.
+    DESC
 
-  s.license      = { :type => "MIT", :file => "LICENSE" }
+    s.homepage         = 'https://github.com/chenxing640/DYFToast'
+    # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+    s.license          = { :type => 'MIT', :file => 'LICENSE' }
+    s.author           = { 'TengFei' => 'hansen981@126.com' }
+    s.source           = { :git => 'https://github.com/chenxing640/DYFToast.git', :tag => s.version.to_s }
+    # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.author       = { "dyf" => "vinphy.teng@foxmail.com" }
+    s.ios.deployment_target = '8.0'
+    # s.osx.deployment_target     = "10.7"
+    # s.watchos.deployment_target = "2.0"
+    # s.tvos.deployment_target    = "9.0"
 
-  s.platform     = :ios
+    s.source_files = 'DYFToast/Classes/**/*'
+    s.public_header_files = "DYFToast/Classes/**/*.h"
 
-  s.ios.deployment_target       = "8.0"
-  # s.osx.deployment_target     = "10.7"
-  # s.watchos.deployment_target = "2.0"
-  # s.tvos.deployment_target    = "9.0"
+    # s.public_header_files = 'Pod/Classes/**/*.h'
+    # s.resource_bundles = {
+    #   'DYFToast' => ['DYFToast/Assets/*.png']
+    # }
 
-  s.source       = { :git => "https://github.com/dgynfi/DYFToast.git", :tag => s.version.to_s }
-
-  s.source_files = "Classes", "Classes/**/*.{h,m}"
-  s.public_header_files = "Classes/**/*.h"
-
-  # s.resource  = "icon.png"
-  # s.resources = "Resources/*.png"
-  # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
-
-  s.frameworks = "Foundation", "UIKit", "CoreGraphics"
-
-  # s.library   = "iconv"
-  # s.libraries = "iconv", "xml2"
-
-  s.requires_arc = true
-
-  # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  # s.dependency "JSONKit", "~> 1.4"
+    # s.frameworks = 'UIKit', 'MapKit'
+    # s.dependency 'AFNetworking', '~> 2.3'
 
 end
-
