@@ -40,7 +40,7 @@ pod 'DYFToast', '~> 2.0.4'
 
 ```
 - (IBAction)defaultAction:(id)sender {
-    Toast().makeText(self.view, "无效的验证码", Toastl.LENGTH_SHORT).show();
+    Toast().makeText(self.view, "无效的验证码", ToastDuration.LENGTH_SHORT).show();
 }
 ```
 
@@ -70,7 +70,7 @@ pod 'DYFToast', '~> 2.0.4'
     if (i >= 4) { i = 0; }
 
     UIView *inView = self.navigationController.view;
-    Toast().makeText(inView, message, Toastl.LENGTH_LONG)
+    Toast().makeText(inView, message, ToastDuration.LENGTH_LONG)
     .setGravity(type)
     .show();
 }
@@ -83,7 +83,7 @@ pod 'DYFToast', '~> 2.0.4'
     UIColor *bgColor   = [UIColor colorWithRed:120/255.0 green:210/255.0 blue:251/255.0 alpha:0.9];
     UIColor *textColor = [UIColor colorWithRed:255/255.0 green:255/255.0 blue:255/255.0 alpha:1.0];
     char *message = "Wrong username and password";
-    Toast().makeText(self.view, message, Toastl.LENGTH_LONG)
+    Toast().makeText(self.view, message, ToastDuration.LENGTH_LONG)
     .setGravity(Gravity.BOTTOM)
     .setColor(bgColor, textColor)
     .show();
@@ -95,7 +95,7 @@ pod 'DYFToast', '~> 2.0.4'
 ```
 - (IBAction)setCornerAction:(id)sender {
     char *message = "Please input email";
-    Toast().makeText(self.view, message, Toastl.LENGTH_LONG)
+    Toast().makeText(self.view, message, ToastDuration.LENGTH_LONG)
     .setGravity(Gravity.BOTTOM)
     .setCorner(20)
     .show();
@@ -107,7 +107,7 @@ pod 'DYFToast', '~> 2.0.4'
 ```
 - (IBAction)setBorderAction:(id)sender {
     char *message = "手机号码格式不正确，请重输入";
-    Toast().makeText(self.view, message, Toastl.LENGTH_LONG)
+    Toast().makeText(self.view, message, ToastDuration.LENGTH_LONGER)
     .setGravity(Gravity.BOTTOM)
     .setBorder(UIColor.orangeColor, 3)
     .show();

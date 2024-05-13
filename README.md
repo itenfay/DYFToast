@@ -107,7 +107,7 @@ pod 'DYFToast', '~> 2.0.4'
 ```
 - (IBAction)setBorderAction:(id)sender {
     char *message = "手机号码格式不正确，请重输入";
-    Toast().makeText(self.view, message, ToastDuration.LENGTH_LONG)
+    Toast().makeText(self.view, message, ToastDuration.LENGTH_LONGER)
     .setGravity(Gravity.BOTTOM)
     .setBorder(UIColor.orangeColor, 3)
     .show();

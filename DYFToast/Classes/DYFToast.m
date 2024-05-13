@@ -206,37 +206,61 @@ DYFToast *Toast(void) {
 }
 
 - (void)useAnimationToShow {
-    [UIView beginAnimations:@"show" context:NULL];
-    [UIView setAnimationCurve:UIViewAnimationCurveEaseIn];
-    [UIView setAnimationDuration:0.35];
-    
-    if (self.gravityType != Gravity.TOP_EDGE) {
-        self.contentView.alpha = 1.f;
+    if (@available(iOS 13.0, *)) {
+        [UIView animateWithDuration:0.35 animations:^{
+            if (self.gravityType != Gravity.TOP_EDGE) {
+                self.contentView.alpha = 1.f;
+            } else {
+                CGRect rect = self.contentView.frame;
+                rect.origin.y = (IsIPhoneXAll && [self isPortrait]) ? [self _edgeTop] : 0.f;
+                self.contentView.frame = rect;
+            }
+        }];
     } else {
-        CGRect rect = self.contentView.frame;
-        rect.origin.y = (IsIPhoneXAll && [self isPortrait]) ? [self _edgeTop] : 0.f;
-        self.contentView.frame = rect;
+        [UIView beginAnimations:@"show" context:NULL];
+        [UIView setAnimationCurve:UIViewAnimationCurveEaseIn];
+        [UIView setAnimationDuration:0.35];
+        
+        if (self.gravityType != Gravity.TOP_EDGE) {
+            self.contentView.alpha = 1.f;
+        } else {
+            CGRect rect = self.contentView.frame;
+            rect.origin.y = (IsIPhoneXAll && [self isPortrait]) ? [self _edgeTop] : 0.f;
+            self.contentView.frame = rect;
+        }
+        
+        [UIView commitAnimations];
     }
-    
-    [UIView commitAnimations];
 }
 
 - (void)useAnimationToHide {
-    [UIView beginAnimations:@"hide" context:NULL];
-    [UIView setAnimationCurve:UIViewAnimationCurveEaseOut];
-    [UIView setAnimationDuration:0.35];
-    [UIView setAnimationDelegate:self];
-    [UIView setAnimationDidStopSelector:@selector(_removeToast)];
-    
-    if (self.gravityType != Gravity.TOP_EDGE) {
-        self.contentView.alpha = 0.f;
+    if (@available(iOS 13.0, *)) {
+        [UIView animateWithDuration:0.35 animations:^{
+            if (self.gravityType != Gravity.TOP_EDGE) {
+                self.contentView.alpha = 0.f;
+            } else {
+                CGRect rect = self.contentView.frame;
+                rect.origin.y = -rect.size.height;
+                self.contentView.frame = rect;
+            }
+        }];
     } else {
-        CGRect rect = self.contentView.frame;
-        rect.origin.y = -rect.size.height;
-        self.contentView.frame = rect;
+        [UIView beginAnimations:@"hide" context:NULL];
+        [UIView setAnimationCurve:UIViewAnimationCurveEaseOut];
+        [UIView setAnimationDuration:0.35];
+        [UIView setAnimationDelegate:self];
+        [UIView setAnimationDidStopSelector:@selector(_removeToast)];
+        
+        if (self.gravityType != Gravity.TOP_EDGE) {
+            self.contentView.alpha = 0.f;
+        } else {
+            CGRect rect = self.contentView.frame;
+            rect.origin.y = -rect.size.height;
+            self.contentView.frame = rect;
+        }
+        
+        [UIView commitAnimations];
     }
-    
-    [UIView commitAnimations];
 }
 
 - (void)_removeToast {
