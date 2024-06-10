@@ -2,8 +2,8 @@
 //  ViewController.h
 //  DYFToast
 //
-//  Created by TengFei on 05/13/2024.
-//  Copyright (c) 2024 TengFei. All rights reserved.
+//  Created by Tenfay on 05/13/2024.
+//  Copyright (c) 2024 Tenfay. All rights reserved.
 //
 
 @import UIKit;

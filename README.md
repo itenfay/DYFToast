@@ -1,5 +1,5 @@
 <div align=center>
-<img src="https://github.com/chenxing640/DYFToast/raw/master/images/DYFToast.png" width="60%">
+<img src="https://github.com/itenfay/DYFToast/raw/master/images/DYFToast.png" width="50%">
 </div>
 
 **中文版** | [English Version](README-en.md)
@@ -15,7 +15,7 @@
 ## QQ群 (ID:614799921)
 
 <div align=left>
-&emsp; <img src="https://github.com/chenxing640/DYFToast/raw/master/images/g614799921.jpg" width="30%" />
+&emsp; <img src="https://github.com/itenfay/DYFToast/raw/master/images/g614799921.jpg" width="30%" />
 </div>
 
 ## 安装
@@ -23,13 +23,19 @@
 使用 [CocoaPods](https://cocoapods.org):
 
 ```
-pod 'DYFToast', '~> 2.0.4'
+pod 'DYFToast'
+```
+
+Or
+
+```
+pod 'DYFToast', '~> 2.1.0'
 ```
 
 ## 预览
 
 <div align=left>
-&emsp; <img src="https://github.com/chenxing640/DYFToast/raw/master/images/ToastPreview.gif" width="30%" />
+&emsp; <img src="https://github.com/itenfay/DYFToast/raw/master/images/ToastPreview.gif" width="30%" />
 </div>
 
 > 如果能帮助到你，就请你给一颗`star`。谢谢！

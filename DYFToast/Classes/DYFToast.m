@@ -1,8 +1,8 @@
 //
 //  DYFToast.m
 //
-//  Created by TengFei on 16/7/26.
-//  Copyright © 2016 TengFei.
+//  Created by Tenfay on 16/7/26.
+//  Copyright © 2016 Tenfay.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal

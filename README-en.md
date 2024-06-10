@@ -1,5 +1,5 @@
 <div align=center>
-<img src="https://github.com/chenxing640/DYFToast/raw/master/images/DYFToast.png" width="60%">
+<img src="https://github.com/itenfay/DYFToast/raw/master/images/DYFToast.png" width="60%">
 </div>
 
 [中文版](README.md) | **English Version**
@@ -15,7 +15,7 @@ Using chain programming and point syntax operation to realize the simulation of 
 ## Group (ID:614799921)
 
 <div align=left>
-&emsp; <img src="https://github.com/chenxing640/DYFToast/raw/master/images/g614799921.jpg" width="30%" />
+&emsp; <img src="https://github.com/itenfay/DYFToast/raw/master/images/g614799921.jpg" width="30%" />
 </div>
 
 ## Installation
@@ -23,13 +23,19 @@ Using chain programming and point syntax operation to realize the simulation of 
 Using [CocoaPods](https://cocoapods.org):
 
 ```
-pod 'DYFToast', '~> 2.0.4'
+pod 'DYFToast'
+```
+
+Or
+
+```
+pod 'DYFToast', '~> 2.1.0'
 ```
 
 ## Preview
 
 <div align=left>
-&emsp; <img src="https://github.com/chenxing640/DYFToast/raw/master/images/ToastPreview.gif" width="30%" />
+&emsp; <img src="https://github.com/itenfay/DYFToast/raw/master/images/ToastPreview.gif" width="30%" />
 </div>
 
 > If this can help you, please give it a `stat`. Thanks!

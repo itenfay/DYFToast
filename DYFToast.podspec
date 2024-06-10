@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'DYFToast'
-    s.version          = '2.0.6'
+    s.version          = '2.1.0'
     s.summary          = 'Realizes the toast in iOS with chain programming.'
 
     # This description is used to generate tags and improve search results.
@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
     TODO: This project uses chain programming and point syntax operation to realize the simulation of Android's Toast in iOS, and its code is concise and efficient.
     DESC
 
-    s.homepage         = 'https://github.com/chenxing640/DYFToast'
+    s.homepage         = 'https://github.com/itenfay/DYFToast'
     # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
     s.license          = { :type => 'MIT', :file => 'LICENSE' }
-    s.author           = { 'TengFei' => 'hansen981@126.com' }
-    s.source           = { :git => 'https://github.com/chenxing640/DYFToast.git', :tag => s.version.to_s }
+    s.author           = { 'Tenfay' => 'hansen981@126.com' }
+    s.source           = { :git => 'https://github.com/itenfay/DYFToast.git', :tag => s.version.to_s }
     # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
     s.ios.deployment_target = '8.0'
@@ -43,5 +43,4 @@ Pod::Spec.new do |s|
 
     # s.frameworks = 'UIKit', 'MapKit'
     # s.dependency 'AFNetworking', '~> 2.3'
-
 end
