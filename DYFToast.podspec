@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'DYFToast'
-    s.version          = '2.1.0'
+    s.version          = '2.1.1'
     s.summary          = 'Realizes the toast in iOS with chain programming.'
 
     # This description is used to generate tags and improve search results.
@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
     s.homepage         = 'https://github.com/itenfay/DYFToast'
     # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
     s.license          = { :type => 'MIT', :file => 'LICENSE' }
-    s.author           = { 'Tenfay' => 'hansen981@126.com' }
+    s.author           = { 'Tenfay' => 'itenfay@163.com' }
     s.source           = { :git => 'https://github.com/itenfay/DYFToast.git', :tag => s.version.to_s }
     # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 

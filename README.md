@@ -29,7 +29,7 @@ pod 'DYFToast'
 Or
 
 ```
-pod 'DYFToast', '~> 2.1.0'
+pod 'DYFToast', '~> 2.1.1'
 ```
 
 ## 预览
